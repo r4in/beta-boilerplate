@@ -1,0 +1,39 @@
+.property-card{
+    background-image: url('../acropolis/assets/images/sample-property.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex!important;
+    align-items: flex-end;
+    .property-details{
+        // height: 121px;
+        padding: 20px;
+        padding-bottom: 12px;
+        background-color: rgba(0, 0, 0, 0.7);
+        >.name{
+            font-family: $font-p22;
+            font-size: 12px;
+            letter-spacing: 1.2px;
+            text-align: left;
+            color: #ffffff;
+            margin-top: 0;
+        }
+        >.description{
+            font-family: Georgia;
+            font-size: 12px;
+            line-height: 1.67;
+            letter-spacing: 0.7px;
+            text-align: left;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+        >.link{
+            font-family: $font-p22;
+            font-size: 9px;
+            line-height: 1.78;
+            letter-spacing: 1.3px;
+            text-align: left;
+            color: #dc6a27;       
+        }
+    }
+}

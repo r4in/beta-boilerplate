@@ -1,0 +1,35 @@
+.property-slider{
+    margin-top: 40px;
+
+    .pocket {
+        height: 150px;
+        border-top: 1px solid #a3a291;
+        background-color: #fff;
+        position: relative;
+        z-index: 2;
+    }
+    .property-card{
+        width: 476px;
+        height: 320px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .property-details {
+        width: 100%;
+        margin: 0 auto;
+        padding: 1em;
+        position: relative;
+        transform: translateY(80px);
+        transition: all 0.5s ease-in-out;
+        .link{
+            display: block;
+        }
+    }
+
+    .property-details:hover {
+        transform: translateY(0px);
+    }
+}
+.test{
+    transform: translateY(0px)!important;
+}

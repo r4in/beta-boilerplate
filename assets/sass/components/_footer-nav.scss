@@ -1,0 +1,30 @@
+.footer-nav{
+    .menu {
+        @media (max-width: 768px) {
+            flex-flow: row wrap;
+        }
+    }
+
+    a{
+        font-family: $font-p22;
+        font-size: 13px;
+        line-height: 1.54;
+        letter-spacing: 0.5px;
+        color: #1d1d1d;
+        padding-left: 20px;
+        padding-right: 20px;
+        &:hover, &:focus{
+            color: $orange;
+            text-decoration: none;
+        }
+
+        @media (max-width: 860px) {
+            line-height: 2.5;
+        }
+    }
+
+    @media (max-width: 860px) {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}

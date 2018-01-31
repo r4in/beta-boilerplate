@@ -1,0 +1,49 @@
+/*!
+Theme Name: startertheme
+Theme URI: http://underscores.me/
+Author: Francis A
+Description: A starter theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: startertheme
+Tags:
+
+*/
+
+/* 1. Configuration and helpers*/
+@import
+  'abstract/reset',
+  'abstract/variables',
+  'abstract/mixin';
+
+/* 2. Vendors*/
+@import
+  'vendor/normalize',
+  'vendor/font-awesome',
+  'vendor/bootstrap';
+
+/* 3. Modules*/
+@import
+  'modules/fonts',
+  'modules/base',
+  'modules/helper',
+  'modules/mediaqueries',
+  'modules/buttons';
+
+/* 4. Layout-related sections */
+@import
+  'layout/header',
+  'layout/footer';
+
+/* 5. Components*/
+@import
+   'components/*.scss';
+
+/* 6. Page-specific styles*/
+ @import
+   'pages/front';
+
+/* 7. Overwritten Vendors */
+@import
+   'vendor-extension/bootstrap';

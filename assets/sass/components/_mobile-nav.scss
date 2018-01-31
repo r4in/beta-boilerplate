@@ -1,0 +1,36 @@
+.al-navbar {
+    background-color: transparent;
+    border: none;
+
+    .navbar-brand {
+        height: auto;
+
+        > img {
+            height: 40px;
+            width: auto;
+        }
+    }
+
+    .navbar-toggle {
+        border: none;
+        margin-top: 17px;
+        margin-bottom: 17px;
+
+        &:focus,
+        &:hover {
+            background-color: transparent;
+        }
+
+        &:hover .icon-bar {
+            background-color: $orange;
+        }
+    }
+
+    .menu {
+        display: block;
+
+        > li {
+            padding: 8px 15px;
+        }
+    }
+}
