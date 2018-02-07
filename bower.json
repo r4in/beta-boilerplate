@@ -1,0 +1,17 @@
+{
+  "name": "startertheme",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "app.js",
+  "license": "ISC",
+  "homepage": "https://github.com/jajajanrey/wordpress-boilerplate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
