@@ -12,10 +12,9 @@ Tags:
 */
 
 /* 1. Configuration and helpers*/
-@import
-  'abstract/reset',
-  'abstract/variables',
-  'abstract/mixin';
+@import 'abstract/reset';
+@import 'abstract/variables';
+@import 'abstract/mixin';
 
 /* 2. Vendors*/
 @import
@@ -37,8 +36,7 @@ Tags:
   'layout/footer';
 
 /* 5. Components*/
-@import
-   'components/*.scss';
+@import 'components/*.scss';
 
 /* 6. Page-specific styles*/
  @import
