@@ -1,43 +1,45 @@
-_s
-===
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+# Beta Boilerplate
 
-My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
+[![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
+[![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
 
-* A just right amount of lean, well-commented, modern, HTML5 templates.
-* A helpful 404 template.
-* A custom header implementation in `inc/custom-header.php` just add the code snippet found in the comments of `inc/custom-header.php` to your `header.php` template.
-* Custom template tags in `inc/template-tags.php` that keep your templates clean and neat and prevent code duplication.
-* Some small tweaks in `inc/extras.php` that can improve your theming experience.
-* A script at `js/navigation.js` that makes your menu a toggled dropdown on small screens (like your phone), ready for CSS artistry. It's enqueued in `functions.php`.
-* 2 sample CSS layouts in `layouts/` for a sidebar on either side of your content.
-* Smartly organized starter CSS in `style.css` that will help you to quickly get your design off the ground.
-* Licensed under GPLv2 or later. :) Use it to make something cool.
+Beta is a wordpress starter theme boilerplate built on top of [Underscores](https://underscores.me/) and [Andy Leverenz's WP Workflow](https://bitbucket.org/justalever/startertheme/src/master/).
 
-Getting Started
----------------
 
-If you want to keep it simple, head over to http://underscores.me and generate your `_s` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
+## Quick start
 
-If you want to set things up manually, download `_s` from GitHub. The first thing you want to do is copy the `_s` directory and change the name to something else (like, say, `megatherium`), and then you'll need to do a five-step find and replace on the name in all the templates.
+How To Use:
 
-1. Search for `'_s'` (inside single quotations) to capture the text domain.
-2. Search for `_s_` to capture all the function names.
-3. Search for `Text Domain: _s` in style.css.
-4. Search for <code>&nbsp;_s</code> (with a space before it) to capture DocBlocks.
-5. Search for `_s-` to capture prefixed handles.
+1.  Clone the git repo — `git clone https://github.com/r4in/beta-boilerplate.git`
 
-OR
+2.  Install all node dependencies with `npm install --save-dev`. I'm using Gulp as my primary task runner for autotomating stuff around.
 
-* Search for: `'_s'` and replace with: `'megatherium'`
-* Search for: `_s_` and replace with: `megatherium_`
-* Search for: `Text Domain: _s` and replace with: `Text Domain: megatherium` in style.css.
-* Search for: <code>&nbsp;_s</code> and replace with: <code>&nbsp;Megatherium</code>
-* Search for: `_s-` and replace with: `megatherium-`
+3.  All source files are the the app folder. This will be your workspace and to begin, open the terminal and `gulp watch` to activate sass & livereload.
 
-Then, update the stylesheet header in `style.css` and the links in `footer.php` with your own information. Next, update or delete this readme.
+4.  To prepare your code for deployment, run `gulp build` to export everything to the dist folder. If you're deploying on Netlify - no need to generate as Netlify reads the build task on the gulpfile.js script to deploy.
 
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
+## Features
 
-Good luck!
+- Jam packed with [`HTML5`](https://html5boilerplate.com/) goodness.
+- [`Bootstrap 4.css`](https://getbootstrap.com/)
+  Latest bootstrap framework
+- [`Reboot`](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_reboot.scss)
+  An continous switch from css reset to normalize to reboot
+- [`jQuery`](https://jquery.com/) via CDN, with a local fallback
+
+## Browser support
+
+- Chrome _(latest 2)_
+- Edge _(latest 2)_
+- Firefox _(latest 2)_
+- Internet Explorer 8+
+- Opera _(latest 2)_
+- Safari _(latest 2)_
+
+_This doesn't mean that HTML5 Boilerplate cannot be used in older browsers, just that we'll ensure compatibility with the ones mentioned above._
+
+## License
+
+The code is available under the [MIT license](LICENSE.txt).
