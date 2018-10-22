@@ -18,8 +18,6 @@ How To Use:
 
 3.  All source files are the the app folder. This will be your workspace and to begin, open the terminal and `gulp watch` to activate sass & livereload.
 
-4.  To prepare your code for deployment, run `gulp build` to export everything to the dist folder. If you're deploying on Netlify - no need to generate as Netlify reads the build task on the gulpfile.js script to deploy.
-
 ## Features
 
 - Jam packed with [`HTML5`](https://html5boilerplate.com/) goodness.
